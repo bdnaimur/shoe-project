@@ -17,7 +17,7 @@
 <body>
     <header>
         <section class="background-color">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
                 <div class="container mt-4">
                     <a class="navbar-brand" href="#">
                         <img class="logo" src="logo/Logo.png" alt="">
@@ -31,23 +31,23 @@
                     <div class="collapse navbar-collapse margin" id="navbarNav">
                         <ul class="navbar-nav m-auto fw-bold">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
+                                <a class="nav-link" href="#shoe">Product</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="#contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </section>
-        <section class="background-color">
+        <section id="home" class="background-color">
             <div class="container p-5">
                 <div class="row">
                     <div class="col-md-7">
@@ -67,7 +67,8 @@
                 </div>
             </div>
         </section>
-        <main>
+    </header>
+        <main id="shoe">
             <section>
                 <div class="container pt-4">
                     <h1 style="letter-spacing:-1.5px; font-size: 50px;" class="title m-3">CASUAL SHOES</h1>
@@ -182,35 +183,35 @@
                 <div class="container mt-5">
                     <div class="row">
                         <div class="col-md-6">
-                            
-                                <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
-                                    <div class="col-md-3 px-4">
-                                        <img class="icon-image" src="logo/image 14.png" alt="">
-                                    </div>
-                                    <div class="col-md-9 pt-3">
-                                        <h4>Fit the Perfect Fit</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
+
+                            <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
+                                <div class="col-md-3 px-4">
+                                    <img class="icon-image" src="logo/image 14.png" alt="">
                                 </div>
-                            
-                                <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
-                                    <div class="col-md-3 px-4">
-                                        <img class="icon-image" src="logo/image 13.png" alt="">
-                                    </div>
-                                    <div class="col-md-9 pt-3">
-                                        <h4>Fit the Perfect Fit</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
+                                <div class="col-md-9 pt-3">
+                                    <h4>Fit the Perfect Fit</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
-                                    <div class="col-md-3 px-4">
-                                        <img class="icon-image" src="logo/image 12.png" alt="">
-                                    </div>
-                                    <div class="col-md-9 pt-3">
-                                        <h4>Fit the Perfect Fit</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
+                                <div class="col-md-3 px-4">
+                                    <img class="icon-image" src="logo/image 13.png" alt="">
                                 </div>
+                                <div class="col-md-9 pt-3">
+                                    <h4>Fit the Perfect Fit</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex align-items-center m-3 shadow round w-100">
+                                <div class="col-md-3 px-4">
+                                    <img class="icon-image" src="logo/image 12.png" alt="">
+                                </div>
+                                <div class="col-md-9 pt-3">
+                                    <h4>Fit the Perfect Fit</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <img class="image-size mt-5" src="logo/XMLID 1.png" alt="">
@@ -219,7 +220,32 @@
                 </div>
             </section>
         </main>
-    </header>
+        <section id="contact" class="container mt-5 bg-dark shadow pt-5 pb-5">
+            <div class="row">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <div><a href=""><i class="fa fa-facebook bg-success text-warning p-2 mx-2 round fs-3"  aria-hidden="true"></i></a></div>
+                   <div> <a href=""><i class="fa fa-twitter bg-success text-warning p-2 mx-2 round fs-3" aria-hidden="true"></i></a></div>
+                    <div><a href=""><i class="fa fa-pinterest-p bg-success text-warning mx-2 p-2 round fs-3" aria-hidden="true"></i></a></div>
+                </div>
+                <div style="font-size: 12px;" class="text text-white d-flex align-items-center justify-content-center pt-2">
+                <span class="mx-1">Facebook</span>                
+                <span class="mx-1">Twitter</span>                
+                <span class="mx-1">Pinterest</span>
+                </div>
+            </div>
+            <div class="row text-white mt-2">
+                <div class="d-flex align-items-center justify-content-center ">
+                <p>Contact |</p>&nbsp;
+                <p>Blog |</p>&nbsp;
+                <p> Delivery |</p>&nbsp;
+                <p> Conditions</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="text-center fs-6 mt-3">Copy Right@2021 All Rights Reserved Janker Mahabub</div>
+        </footer>
+
 </body>
 
 </html>
