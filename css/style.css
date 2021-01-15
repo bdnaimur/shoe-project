@@ -20,13 +20,13 @@ body{
 h1{
     font-size: 40px;
 }
-
 .image-size{
     width: 100%;
     border-radius: 15px;
 }
 .round{
     border-radius: 15px;
+    border: 0;
 }
 .card-footer{
     border: 0;
